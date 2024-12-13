@@ -44,5 +44,5 @@ int main(){
 	    if(loan + loan * (rate/100) <= amount) break;
 	    loan = loan + loan * (rate/100) - amount;
 	    i++;
-    }
+    } 
 }
